@@ -1,0 +1,140 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.page{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width:1440px;
+}
+
+.side-navbar{
+
+}
+
+.main-section{
+  background-color: #fcfcfd;
+}
+
+/* how to set width according to device width*/
+
+.avatar-content{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width:100%;
+  gap:24px;
+}
+
+.avatar{
+  margin-top: -50px;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 830px;
+  height: 130px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  width:589px;
+  height:66px;
+}
+
+.about h1{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.about p{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #475467;
+}
+
+.button-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 225px;
+  height: 40px;
+}
+
+.share-button{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: white;
+  border: 1px solid #d0d5dd;
+  padding: 10px 16px;
+  box-shadow: 0 1px 2px rgba(16,24,40,0.5);
+  width: 100px;
+  height: 40px;
+  gap:8px
+}
+
+.view-profile-button{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #7f56d9;
+  border: 1px solid #7f56d9;
+  padding: 10px 16px;
+  box-shadow: 0 1px 2px rgba(16,24,40,0.5);
+  width: 113px;
+  height: 40px;
+  gap:8px;
+}
+
+.main-content{
+  padding: 0 32px;
+}
+
+.section1{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.section1-2{
+  background: white;
+  border:1px solid #eaecf0;
+  box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);
+  border-radius: 12px;
+}
+
+.form-section{
+  padding: 24px;
+}
+
+.name-input-section{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.name-buttons{
+  width:315px;
+  height:34px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  background: white;
+  box-shadow: 0 1px 2px rgba(16,24,40,0.5);
+}
