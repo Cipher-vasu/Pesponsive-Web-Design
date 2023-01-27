@@ -1,4 +1,23 @@
+@media (max-width: 500px){
+  #navbar-menu div{
+    display: none;
+  }
 
+  #personal-info{
+    flex-direction: column;
+  }
+  #box1{
+    flex-direction: column;
+  }
+
+  #name-boxes{
+    flex-direction: column;
+  }
+
+  #input-boxes{
+    width:50%;
+  }
+}
 
 body{
   margin: 0;
@@ -12,13 +31,17 @@ body{
 }
 
 .sidebar{
+  background: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
   border-right: 1px solid #eaecf0;
-  width:81px;
+  width:6%;
   padding: 0;
+  /*position: fixed;
+  height: 100%;
+  overflow: visible;*/
 }
 
 .navbar{
@@ -40,7 +63,7 @@ body{
   height: 32px;
 }
 
-.navbar-menu{
+#navbar-menu{
   display: flex;
   flex-direction: column;
   padding: 0 16px;
@@ -86,7 +109,7 @@ body{
   gap: 24px;
 }
 
-.personal-info{
+#personal-info{
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -232,6 +255,7 @@ body{
   border: 1px solid #eaecf0;
   border-radius: 12px;
   box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);
+  width: 55%;
 }
 
 .section1-2-content{
@@ -263,7 +287,7 @@ body{
 
 .name-buttons{
   margin-top: 5px;
-  width: 315px;
+  width: 300px;
   padding: 5px 14px;
   border: 1px solid #d0d5dd;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
@@ -372,4 +396,45 @@ body{
   font-size: 16px;
   line-height: 24px;
   color: #101828;
+}
+
+
+.description-box{
+  box-sizing: border-box;
+  border: 1px solid #D0D5DD;
+  width: 710px;
+  height: 128px;
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 14px;
+gap: 8px;
+
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+}
+
+.regular-section{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.regular-box{
+  box-sizing: border-box;
+  border: 1px solid #D0D5DD;
+  width: 155px;
+  height:40px;
+padding: 12px 14px;
+gap: 8px;
+
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+}
+
+.regular-icons img{
+  width: 32px;
+  height: 32px;
+
 }
